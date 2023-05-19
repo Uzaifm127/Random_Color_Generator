@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 1vw;
+  /* html ko font size define kr doge to html me heading h2 etc ki properties use nhi kar paoge because html ka font size har element par inherit ho jayega isliye html ka font size ke according sabko rem me properties dene ke bajaye sabko alag alag unit assign kar diya karo jisse html ka use kar pao otherwise de do koi baat nhi baadme h2 ka bhi font size set kr dena rem me */
+}
+
+#mainBody {
+  height: 100vh;
+  width: 100vw;
+  transition: all 500ms ease;
+  background: salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* When you apply text-align: center to a container element, it not only centers the text content within that element but also horizontally centers any inline-level elements, such as images, inline-block elements, or spans, within the container. */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  width: 40%;
+  /* height: 20%; */
+  box-shadow: 0 0 1rem black;
+  background: white;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+#colorCode {
+  margin-bottom: 0.8rem;
+}
+
+.btn {
+  cursor: pointer;
+  background: black;
+  color: white;
+  font-size: 2rem;
+  padding: 0.6rem 0rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.6rem;
+}
+
+
+/* pehle project dekhkar khud se style kiya karo and then fir baadme video dekha karo and jo bhi alag lage ya jo bhi new seekhne ko mile use comment out karke likh liya karo */
